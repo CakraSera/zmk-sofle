@@ -129,7 +129,9 @@
                               &kp LCTRL     &kp LEFT_ALT  &kp LGUI      &trans        &trans    &trans  &trans     &kp RIGHT_GUI  &kp RIGHT_ALT  &kp RIGHT_CONTROL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         adjust_layer {
