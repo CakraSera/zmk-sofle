@@ -101,11 +101,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&studio_unlock  &kp F1        &kp F2        &kp F3          &kp F4        &kp F5                       &kp F6          &kp F7          &kp F8         &kp F9             &kp F10   &kp F11
-&kp GRAVE       &kp N1        &kp N2        &kp N3          &kp N4        &kp N5                       &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP    &kp END            &kp N0    &kp F12
-&kp TAB         &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL     &kp PRCNT                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT          &kp RPAR  &kp PIPE
-&kp LEFT_SHIFT  &kp EQUAL     &kp MINUS     &kp KP_PLUS     &kp LBRC      &kp RBRC   &trans    &trans  &kp LBKT        &kp RBKT        &kp SEMI       &kp COLON          &kp BSLH  &kp RIGHT_SHIFT
-                              &kp LCTRL     &kp LEFT_ALT    &kp LEFT_GUI  &none      &trans    &trans  &mkp MB1        &mkp MB2        &kp RIGHT_ALT  &kp RIGHT_CONTROL
+&studio_unlock  &kp F1    &kp F2       &kp F3        &kp F4        &kp F5                         &kp F6          &kp F7         &kp F8         &kp F9                &kp F10                &kp F11
+&kp TAB         &kp EXCL  &kp AT_SIGN  &kp HASH      &kp DOLLAR    &kp PERCENT                    &kp CARET       &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&kp LCTRL       &kp N1    &kp N2       &kp N3        &kp NUMBER_4  &kp N5                         &kp MINUS       &kp EQUAL      &kp GRAVE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PIPE
+&kp LEFT_SHIFT  &kp N6    &kp N7       &kp N8        &kp N9        &kp N0       &trans    &trans  &kp UNDERSCORE  &kp PLUS       &kp TILDE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ALT_ERASE
+                          &kp LCTRL    &kp LEFT_ALT  &kp LEFT_GUI  &kp ENTER    &trans    &trans  &kp SPACE       &kp BACKSPACE  &kp RIGHT_ALT  &kp RIGHT_CONTROL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
